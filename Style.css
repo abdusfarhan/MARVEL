@@ -48,3 +48,12 @@ p {
     font-family:'Birthstone', cursive;
     font-size: 30px;
 }
+.line{
+    height: 6px;
+    background-color: red;
+    width: 70px;
+    margin:8px auto;
+    
+}
+a{text-decoration: none;}
+.C1{font-size: 50px;}
