@@ -32,28 +32,52 @@ p {
     font-family: 'Times New Roman', Times, serif;
     padding: 50px;
 }
-.menu{
-    list-style: none;position:absolute;
-    top: 10px;
-    right: 30px;
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
+    width: 100%;
     z-index: 10;
-   cursor: pointer; ;
+    cursor: pointer;
+    background-color: aqua;
 }
-.links{
-    float: left;
-    padding-top:5px;
+
+.links {
+    padding-top: 5px;
+    display: inline;
     padding-bottom: 5px;
-    padding-left:9px;
+    padding-left: 9px;
     padding-right: 9px;
-    font-family:'Birthstone', cursive;
+    font-family: 'Birthstone', cursive;
     font-size: 30px;
+    
 }
-.line{
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline ;
+}
+
+.line {
     height: 6px;
     background-color: red;
     width: 70px;
-    margin:8px auto;
-    
+    margin: 8px auto;
+
 }
-a{text-decoration: none;}
-.C1{font-size: 50px;}
+
+#writring a {
+    text-decoration: none;
+    color:red !important ;
+}
+
+.C1 {
+    font-size: 50px;
+}
+img{width: 400px;
+    height: 400px;}
+    img:hover{transform: scale(1.2);}
+
+
+
